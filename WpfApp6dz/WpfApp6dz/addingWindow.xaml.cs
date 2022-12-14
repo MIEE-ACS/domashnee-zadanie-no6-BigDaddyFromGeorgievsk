@@ -26,7 +26,7 @@ namespace WpfApp6dz
 
         private void denyButton_Click(object sender, RoutedEventArgs e)
         {
-            DialogResult = false;
+            this.DialogResult = false;
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
